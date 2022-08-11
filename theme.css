@@ -245,6 +245,7 @@
     border-style: none;
   }
 
+  /*
   #jenkins-home-link {
     display:none !important
   }
@@ -255,5 +256,5 @@
     background-size: auto 40px, cover;
     background-position: 10px 10px;
   }
+  */
  /* End CodeMirror Darcula theme */
-
