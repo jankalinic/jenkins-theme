@@ -40,7 +40,7 @@
   --btn-secondary-color: var(--btn-primary-color);
   --btn-link-bg--hover: var(--dark-theme-bg-dark-grey);
   --btn-link-bg--active: var(--dark-theme-bg-dark-grey);
-  --btn-primary-bg:
+  --btn-primary-bg: #787878;
   --btn-text-color: var(--text-color);
   --btn-primary-bg-hover: var(--text-color);
 
@@ -104,7 +104,7 @@
 
   /* Form */
   --input-color: #3a3a3a;
-  --input-border: var(--dark-theme-bg-dark);
+  --input-border: #484848;
   --header-search-border: var(--dark-theme-bg-dark-grey);
   --input-hidden-password-bg-color: var(--input-color);
   --input-border-hover: gray;
