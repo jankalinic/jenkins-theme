@@ -258,16 +258,9 @@
     border-radius: 1rem;
   }
 
-  /*
-  #jenkins-home-link {
-    display:none !important
+  #jenkins-name-icon {
+    width: 15rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
   }
-
-  header {
-    background-image: url('https://design.jboss.org/strimzi/logo/final/strimzilogomark_default_512px.png');
-    background-repeat: no-repeat;
-    background-size: auto 40px, cover;
-    background-position: 10px 10px;
-  }
-  */
  /* End CodeMirror Darcula theme */

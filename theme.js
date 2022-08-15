@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    document.getElementById("jenkins-head-icon").src="https://www.jenkins.io/images/logos/snow/snow.png";
-    var a = new Audio("http://soundfxcenter.com/movies/star-wars/8d82b5_Star_Wars_Main_Theme_Song.mp3");
-    a.play();
+    document.getElementById("jenkins-head-icon").src="https://design.jboss.org/strimzi/logo/final/strimzilogomark_default_512px.png";
+    document.getElementById("jenkins-name-icon").src="https://github.com/im-konge/jenkins-theme/raw/main/coollogo_com-254835774.png";
 });
