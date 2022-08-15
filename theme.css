@@ -41,6 +41,9 @@
   --btn-link-bg--hover: var(--dark-theme-bg-dark-grey);
   --btn-link-bg--active: var(--dark-theme-bg-dark-grey);
   --btn-primary-bg:
+  --btn-text-color: var(--text-color);
+  --btn-primary-bg-hover: var(--text-color);
+
 
   /* Help area */
   --help-area-bg-color: var(--dark-theme-bg-dark-grey);
@@ -71,10 +74,10 @@
   --bigtable-header-border-color: var(--dark-theme-bg-dark-grey);
   --bigtable-header-text-color: var(--text-color);
   --bigtable-row-border-color: var(--dark-theme-bg-dark-grey);
-  --even-row-color: #020202;
+  --even-row-color: var(--dark-theme-bg-medium);
   --table-striped-bg--hover: var(--dark-theme-bg-dark-grey);
 
-  --table-background: #2b2b2b;
+  --table-background: var(--dark-theme-bg-medium);
   --table-body-background: #404040;
   --table-body-foreground: var(--text-color);
   --table-header-foreground: var(--text-color);
@@ -94,16 +97,18 @@
   --tab-link-bg--active: var(--dark-theme-bg-dark-grey);
 
   /* Side panel */
-  --panel-header-bg-color: var(--dark-theme-bg-black);
+  --panel-header-bg-color: var(--dark-theme-bg-medium);
   --panel-border-color: var(--dark-theme-bg-dark-grey);
   --panel-border-color--hover: var(--dark-theme-bg-black);
-  --task-link-bg-color--hover: var(--dark-theme-bg-medium-grey);
+  --task-link-bg-color--hover: var(--dark-theme-bg-medium-grey);f
 
   /* Form */
   --input-color: #3a3a3a;
   --input-border: var(--dark-theme-bg-dark);
   --header-search-border: var(--dark-theme-bg-dark-grey);
   --input-hidden-password-bg-color: var(--input-color);
+  --input-border-hover: gray;
+  --focus-input-border: var(--input-border-hover);
 
   /* Text area handle */
   --text-area-handle-border: var(--dark-theme-bg-dark-grey);
@@ -243,6 +248,14 @@
     padding: 1rem;
     margin-bottom: 1rem;
     border-style: none;
+  }
+
+  .jenkins-form-item {
+    max-width: var(--form-item-max-width);
+    margin-bottom: var(--section-padding);
+    background-color: #2b2b2b;
+    padding: 1rem;
+    border-radius: 1rem;
   }
 
   /*
