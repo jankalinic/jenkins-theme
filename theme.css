@@ -41,7 +41,7 @@
   --btn-link-bg--hover: var(--dark-theme-bg-dark-grey);
   --btn-link-bg--active: var(--dark-theme-bg-dark-grey);
   --btn-primary-bg: #787878;
-  --btn-text-color: var(--text-color);
+  --btn-text-color: var(--dark-theme-bg-medium);
   --btn-primary-bg-hover: var(--text-color);
 
 
