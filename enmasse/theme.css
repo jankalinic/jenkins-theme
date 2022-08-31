@@ -1,5 +1,5 @@
 :root {
-  --light-dark-theme-bg-black: #548ca8;
+  --light-dark-theme-bg-black: #324142;
   --light-dark-theme-bg-dark: #2C3639;
   --light-dark-theme-bg-medium: #3F4E4F;
   --light-dark-theme-bg-dark-grey: #414A4C;
@@ -12,7 +12,7 @@
   --medium-grey: var(--light-dark-theme-bg-medium-grey);
   --white: var(--light-dark-theme-bg-dark-grey);
   --black: var(--light-dark-theme-bg-light-grey);
-  --primary: #458bed;
+  --primary: #99bff1;
   --green: #28c963;
 
   /* Text */
@@ -36,12 +36,13 @@
   --alert-danger-border-color: var(--alert-danger-bg-color);
 
   /* Buttons */
+  --btn-primary-color: var(--light-dark-theme-bg-medium);
   --btn-secondary-bg: var(--light-dark-theme-bg-dark);
   --btn-secondary-color: var(--btn-primary-color);
   --btn-link-bg--hover: var(--light-dark-theme-bg-dark-grey);
   --btn-link-bg--active: var(--light-dark-theme-bg-dark-grey);
   --btn-primary-bg: #787878;
-  --btn-text-color: var(--light-dark-theme-bg-medium);
+  --btn-text-color: var(--light-dark-theme-bg-light-grey);
   --btn-primary-bg-hover: var(--text-color);
 
 
@@ -100,7 +101,7 @@
   --panel-header-bg-color: var(--light-dark-theme-bg-medium);
   --panel-border-color: var(--light-dark-theme-bg-dark-grey);
   --panel-border-color--hover: var(--light-dark-theme-bg-black);
-  --task-link-bg-color--hover: var(--light-dark-theme-bg-medium-grey);f
+  --task-link-bg-color--hover: var(--light-dark-theme-bg-medium-grey);
 
   /* Form */
   --input-color: #3a3a3a;
@@ -148,7 +149,7 @@
   /* Auto complete */
   --auto-complete-bg-color--prehighlight: var(--primary);
 
-  --header-bg-classic: #474444;
+  --header-bg-classic: #2B5E64;
   --header-link-color: white;
 }
 
